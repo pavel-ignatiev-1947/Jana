@@ -22,7 +22,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Здравствуйте, ' + myName;
+    myHeading.textContent = 'Здравствуйте, ' + myName +localStorage.length;
   }
 }
 
